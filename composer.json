@@ -1,0 +1,19 @@
+{
+    "name": "ted.bowman/git_deleter",
+    "description": "something",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ted Bowman",
+            "email": "ted@tedbow.com"
+        }
+    ],
+    "require": {
+        "nategood/httpful": "^0.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "GitDeleter\\": "src/"
+        }
+    }
+}
